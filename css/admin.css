@@ -1,0 +1,34 @@
+body {
+    background: #6dd5ed;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  */ /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+.centrado {
+    text-align: center;
+    vertical-align: middle;
+}
+.container {
+    background-color: transparent;
+}
+.displayNone{
+    display: none;
+}
+#text-musculacion{
+    color: #ff00cc;
+}
+
+.bg-danger {
+    background-color: #ff0000;
+    color: #ffffff; /* Cambia el color del texto a blanco */
+  }
+.bg-success {
+    background-color: #00ff00;
+    color: #ffffff;
+}  
+
+
